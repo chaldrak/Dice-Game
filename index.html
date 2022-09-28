@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Project Dice</title>
+</head>
+<body>
+  <section class="container">
+    <h1 class="title">Dice Game</h1>
+
+    <div class="images">
+      <div class="image">
+        <img src="img/dice_0.png" alt="">
+      </div>
+      <div class="image">
+        <img src="img/dice_0.png" alt="">
+      </div>
+      <div class="image">
+        <img src="img/dice_0.png" alt="">
+      </div>
+    </div>
+
+    <div class="scores">
+      <p>
+        Pointage : <span id="pointage">0</span>
+      </p>
+      <p>
+        Bonus : <span id="bonus">0</span>
+      </p>
+      <p>
+        Total des points : <span id="total">0</span>
+      </p>
+    </div>
+
+    <div>
+      <p>
+        Cumulatif des points : <span id="cumulatif">0</span>
+      </p>
+    </div>
+
+    <div class="buttons">
+      <button class="button" onclick="jouer()">Jouer à nouveau</button>
+      <button class="button" onclick="reset()">Réinitialiser pointage</button>
+    </div>
+  </section>
+  <!-- JavaScript -->
+  <script src="index.js"></script>
+</body>
+</html>
